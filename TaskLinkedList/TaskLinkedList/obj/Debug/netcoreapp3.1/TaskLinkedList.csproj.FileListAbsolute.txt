@@ -1,0 +1,13 @@
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\bin\Debug\netcoreapp3.1\TaskLinkedList.exe
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\bin\Debug\netcoreapp3.1\TaskLinkedList.deps.json
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\bin\Debug\netcoreapp3.1\TaskLinkedList.runtimeconfig.json
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\bin\Debug\netcoreapp3.1\TaskLinkedList.runtimeconfig.dev.json
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\bin\Debug\netcoreapp3.1\TaskLinkedList.dll
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\bin\Debug\netcoreapp3.1\TaskLinkedList.pdb
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\obj\Debug\netcoreapp3.1\TaskLinkedList.csprojAssemblyReference.cache
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\obj\Debug\netcoreapp3.1\TaskLinkedList.AssemblyInfoInputs.cache
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\obj\Debug\netcoreapp3.1\TaskLinkedList.AssemblyInfo.cs
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\obj\Debug\netcoreapp3.1\TaskLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\obj\Debug\netcoreapp3.1\TaskLinkedList.dll
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\obj\Debug\netcoreapp3.1\TaskLinkedList.pdb
+C:\Users\xaNe\source\repos\TaskLinkedList\TaskLinkedList\obj\Debug\netcoreapp3.1\TaskLinkedList.genruntimeconfig.cache

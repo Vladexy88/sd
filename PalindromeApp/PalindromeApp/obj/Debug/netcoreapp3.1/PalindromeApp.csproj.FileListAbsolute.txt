@@ -1,0 +1,13 @@
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\bin\Debug\netcoreapp3.1\PalindromeApp.exe
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\bin\Debug\netcoreapp3.1\PalindromeApp.deps.json
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\bin\Debug\netcoreapp3.1\PalindromeApp.runtimeconfig.json
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\bin\Debug\netcoreapp3.1\PalindromeApp.runtimeconfig.dev.json
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\bin\Debug\netcoreapp3.1\PalindromeApp.dll
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\bin\Debug\netcoreapp3.1\PalindromeApp.pdb
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\obj\Debug\netcoreapp3.1\PalindromeApp.csprojAssemblyReference.cache
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\obj\Debug\netcoreapp3.1\PalindromeApp.AssemblyInfoInputs.cache
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\obj\Debug\netcoreapp3.1\PalindromeApp.AssemblyInfo.cs
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\obj\Debug\netcoreapp3.1\PalindromeApp.csproj.CoreCompileInputs.cache
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\obj\Debug\netcoreapp3.1\PalindromeApp.dll
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\obj\Debug\netcoreapp3.1\PalindromeApp.pdb
+C:\Users\xaNe\source\repos\PalindromeApp\PalindromeApp\obj\Debug\netcoreapp3.1\PalindromeApp.genruntimeconfig.cache

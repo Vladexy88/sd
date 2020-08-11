@@ -1,0 +1,13 @@
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\bin\Release\netcoreapp3.1\SearchByModuleApp.exe
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\bin\Release\netcoreapp3.1\SearchByModuleApp.deps.json
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\bin\Release\netcoreapp3.1\SearchByModuleApp.runtimeconfig.json
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\bin\Release\netcoreapp3.1\SearchByModuleApp.runtimeconfig.dev.json
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\bin\Release\netcoreapp3.1\SearchByModuleApp.dll
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\bin\Release\netcoreapp3.1\SearchByModuleApp.pdb
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\obj\Release\netcoreapp3.1\SearchByModuleApp.csprojAssemblyReference.cache
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\obj\Release\netcoreapp3.1\SearchByModuleApp.AssemblyInfoInputs.cache
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\obj\Release\netcoreapp3.1\SearchByModuleApp.AssemblyInfo.cs
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\obj\Release\netcoreapp3.1\SearchByModuleApp.csproj.CoreCompileInputs.cache
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\obj\Release\netcoreapp3.1\SearchByModuleApp.dll
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\obj\Release\netcoreapp3.1\SearchByModuleApp.pdb
+C:\Users\xaNe\source\repos\SearchByModuleApp\SearchByModuleApp\obj\Release\netcoreapp3.1\SearchByModuleApp.genruntimeconfig.cache
