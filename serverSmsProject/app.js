@@ -52,7 +52,6 @@ const CheckNotAuthenticated = (req, res, next) => {
             DetermineBalanceByUsername();
         }
     }
-
     next();
 
 }
@@ -61,7 +60,6 @@ const CheckAuthenticated = (req, res, next) => {
     if (req.isAuthenticated()) {
         return next();
     }
-
     res.redirect('/auth')
 
 }
@@ -77,7 +75,6 @@ const DetermineBalanceByUsername = () => {
     if (selectUser.login === localUserName) {
         localBalance = selectUser.balance;
     }
-
 }
 
 
@@ -89,9 +86,6 @@ app.get('/', CheckAuthenticated, (request, response) => {
     response.setHeader("Access-Control-Allow-Headers", "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
     response.send('lel');
 })
-
-
-
 
 
 app.get('/passwordreset', CheckNotAuthenticated, (req, res, next) => {
@@ -150,7 +144,6 @@ app.get('/auth', CheckNotAuthenticated, (req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
-   
     content.AuthPage(res);
 
     // SqlInitialize.Initialize().then(result => {
@@ -173,7 +166,6 @@ app.get('/content', CheckAuthenticated, (req, res, next) => {
     res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
     content.HomePage(res);
-
 });
 
 app.get('/register', CheckNotAuthenticated, (req, res, next) => {
@@ -182,7 +174,6 @@ app.get('/register', CheckNotAuthenticated, (req, res, next) => {
     res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
     content.RegisterPage(res);
-
 });
 
 app.post('/register', CheckNotAuthenticated, (req, res, next) => {
@@ -212,9 +203,6 @@ app.get('/localdata', CheckAuthenticated, (req, res, next) => {
     res.setHeader("Access-Control-Allow-Headers", "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
     res.send(JSON.stringify({ username: localUserName, balance: localBalance }));
 })
-
-
-
 
 app.get('/getuserinfo', CheckAuthenticated, (req, res, next) => {
     // res.redirect('/auth');
@@ -273,7 +261,6 @@ app.get('/rejectionofnumber', CheckAuthenticated, (req, res, next) => {
 
 });
 //response: "{"response":"1","number":"9033995628","id":51068051,"again":0,"text":null,"extra":"","karma":50,"pass":null,"sms":null,"balanceOnPhone":0,"service":null,"country":null,"CountryCode":"+7","branchId":0,"callForwarding":false,"goipSlotId":-1}"
-
 app.get('/getclearsms', CheckAuthenticated, (req, res, next) => {
     res.setHeader("Content-Type", "application/json");
     res.setHeader("Access-Control-Allow-Origin", "*");
@@ -291,9 +278,7 @@ app.get('/getchecknumber', CheckAuthenticated, (req, res, next) => {
     ware.GetCheckNumber(req, res, next);
 
 });
-    //response: "{"response":"1","number":"9033965769","id":51141602,"again":0,"text":null,"extra":"","karma":47.050000000000026,"pass":null,"sms":null,"balanceOnPhone":0,"service":null,"country":null,"CountryCode":"+7","branchId":0,"callForwarding":false,"goipSlotId":-1}"
 
-//npm init для создания package.json
 app.listen(port, () => {
     console.log(`${port}`);
 });
