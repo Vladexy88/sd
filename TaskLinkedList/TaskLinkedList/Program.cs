@@ -41,9 +41,7 @@ namespace TaskLinkedList
 
         static void Main(string[] args)
         {
-
-            var s = SumLinkedList();
-
+            var linked = SumLinkedList();
             Console.ReadLine();
         }
     }
