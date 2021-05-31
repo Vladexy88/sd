@@ -53,7 +53,6 @@ const CheckNotAuthenticated = (req, res, next) => {
         }
     }
     next();
-
 }
 
 const CheckAuthenticated = (req, res, next) => {
@@ -61,7 +60,6 @@ const CheckAuthenticated = (req, res, next) => {
         return next();
     }
     res.redirect('/auth')
-
 }
 
 const DetermineBalanceByUsername = () => {
@@ -77,7 +75,6 @@ const DetermineBalanceByUsername = () => {
     }
 }
 
-
 app.get('/', CheckAuthenticated, (request, response) => {
 
     response.setHeader("Content-Type", "application/json");
@@ -86,7 +83,6 @@ app.get('/', CheckAuthenticated, (request, response) => {
     response.setHeader("Access-Control-Allow-Headers", "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
     response.send('lel');
 })
-
 
 app.get('/passwordreset', CheckNotAuthenticated, (req, res, next) => {
     res.setHeader("Content-Type", "text/html; charset=UTF-8");
@@ -188,7 +184,6 @@ app.post('/register', CheckNotAuthenticated, (req, res, next) => {
     } catch (err) {
         res.redirect('/register');
     }
-
 });
 
 app.post('/logout', (req, res) => {
